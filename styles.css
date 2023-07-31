@@ -1,0 +1,113 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 20px; 
+    padding: 20px;
+    background-color: #f4e6ac;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #34a5ff;
+    color: white;
+    
+}
+
+.students {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px; 
+    height: auto;
+    background-color: #9fe6b8;
+}
+
+.enroll-student {
+    margin-top: 30px;
+    padding: 20px; 
+    width: 45%;
+    height: auto;
+    background-color: #9fe6b8;
+}
+
+#enrolled-students {
+    margin-top: 25px;
+    margin-bottom: 30px; 
+    width: 55%;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+    background-color: #9fe6b8;
+}
+
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #34a5ff;
+    color: white;
+    padding: 15px; 
+    border-bottom: 2px solid #34a5ff;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #9fe6b8;
+    border: 2px solid #34a5ff;
+    border-top: none;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.user-delete-btn {
+    border: none;
+    background-color: #ff5a5a; 
+    font-size: 25px;
+    transform: rotate(45deg);
+    display: none;
+    color: white; 
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.wrapper:hover .user-delete-btn {
+    display: block;
+}
+
+.text-info-container {
+    width: 70%;
+    padding: 10px;
+    border-right: 2px solid #34a5ff; 
+}
+
+.image-container {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+@media screen and (max-width: 768px) {
+    hr.separation-border {
+        height: 0;
+    }
+}
+
+
+
+  
+ 
